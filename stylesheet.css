@@ -1,0 +1,107 @@
+.container {
+  width: 960px;
+}
+
+.header {
+  border-bottom: 1px solid #ddd;
+  font-weight: 300;
+
+  font-size: 17px;
+  padding: 15px;
+}
+
+.logo-icon img {
+  height: auto;
+  width: auto;
+  max-width: 40px;
+  max-height: 40px
+}
+
+.header .menu {
+  margin-top: 5px;
+  display: inline;
+  float: right;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.intro-text {
+  left: 15px;
+  position: relative;
+  font-family: Rockwell;
+}
+
+.intro-text p {
+  color: grey;
+  font-size: 20px;
+}
+
+.intro-text div p {
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.circle div {
+  position: relative;
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+  border-radius: 100%;
+  border: 2px solid white;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.circle div p {
+	position: relative;
+	margin-top: 42px;
+	font-size: 20px;
+  font-family: impact;
+}
+
+#Instagram {
+  border: 3px solid #ff3333;
+  background-color:  #ff4d4d;
+}
+
+#Facebook {
+  border: 3px solid #0039e6;
+  background-color:   #809fff;
+}
+
+#Github {
+  border: 3px solid #009900;
+  background-color:   #8cff66;
+}
+
+#LinkedIn {
+  border: 3px solid #000080;
+  background-color:   #1a1aff;
+}
+
+#myself {
+  float: left;
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10%;
+}
+
+#saigon {
+  height: auto;
+  width: auto;
+  max-width: 1100px;
+  max-height: 800px;
+}

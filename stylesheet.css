@@ -30,6 +30,18 @@
   float: left;
 }
 
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
 .intro {
   margin-top: 50px;
 }

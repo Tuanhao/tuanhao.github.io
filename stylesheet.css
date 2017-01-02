@@ -145,3 +145,13 @@
   font-size: 50px;
   font-weight: bold;
 }
+
+.fa-github-square{
+    color: #27a339;
+}
+.heart {
+  display: none;
+  opacity: 0.25;
+  color: #ff002a;
+  font-size: 40px;
+}

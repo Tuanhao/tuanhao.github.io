@@ -95,6 +95,11 @@
   margin-top: 40px;
 }
 
+.projectInfo {
+  font-style: italic;
+  color: grey;
+}
+
 #Instagram {
   margin-left: 370px;
   border: 3px solid #ff5050;

@@ -3,33 +3,59 @@
 }
 
 .header {
-  border-bottom: 1px solid #ddd;
-  font-weight: 300;
-
-  font-size: 17px;
-  padding: 15px;
+  border-bottom: 2px solid #ddd;
 }
 
 
-.logo-icon img {
-  height: auto;
-  width: auto;
-  max-width: 40px;
-  max-height: 40px
+.menu_image img {
+  margin-left: 10%;
+  padding-top: -5%;
+  position: absolute;
+  max-width: 250px;
+  max-height: 250px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-radius: 20%;
 }
 
-.header .menu {
-  margin-top: 5px;
-  display: inline;
-  float: right;
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.header .menu_left {
+  margin-left: 10%;
+  line-height: 100px;
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: column;
   list-style: none;
 }
 
-.menu li {
-  margin-left: 20px;
-  margin-right: 20px;
-  float: left;
+.menu_left li a {
+  color: #228B22;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
 }
+
+.header .menu_right {
+  margin-left: 40%;
+  line-height: 100px;
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  list-style: none;
+}
+
+.menu_right li a {
+  color: #228B22;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+}
+
 
 .dropdown-menu {
   font-size: 16px;

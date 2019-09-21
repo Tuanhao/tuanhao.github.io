@@ -1,187 +1,92 @@
-.container {
-  width: 960px;
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam|Mansalva&display=swap");
+body {
+  font-size: 1em;
+  background-color: #001c2a;
+  margin: 0;
 }
 
-.header {
-  border-bottom: 2px solid #ddd;
+.container #intro h1 {
+  font-size: 3rem;
+  font-family: "Mansalva", cursive;
 }
-
-
-.menu_image img {
-  margin-left: 9%;
-  position: absolute;
-  max-width: 200px;
-  width: 100%;
-  animation-name: rotate;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  border-radius: 3%;
+.container #intro p {
+  font-family: "Be Vietnam", sans-serif;
 }
-
-@keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+.container #intro img {
+  width: 49%;
+  border-radius: 1rem;
 }
-
-.header .menu_left {
-  margin-left: 10%;
-  line-height: 100px;
-  font-weight: bold;
-  display: inline-flex;
-  flex-direction: column;
-  list-style: none;
+.container #intro #HCM {
+  transform: rotate(90deg);
 }
-
-.menu_left li a {
-  color: #228B22;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 40px;
+.container #intro #familyPic {
+  float: right;
 }
-
-.header .menu_right {
-  margin-left: 40%;
-  line-height: 100px;
-  font-weight: bold;
-  display: inline-flex;
-  flex-direction: column;
-  position: relative;
-  list-style: none;
-}
-
-.menu_right li a {
-  color: #228B22;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 40px;
-}
-
-
-.dropdown-menu {
-  font-size: 16px;
-  margin-top: 5px;
-  min-width: 50px;
-}
-
-.dropdown-menu li a {
-  color: #809fff;
-  margin-top: 5px;
-}
-
-.intro {
-  margin-top: 50px;
-}
-
-.intro-text {
-  left: 15px;
-  position: relative;
-  font-family: Rockwell;
-}
-
-.intro-text p {
-  color: grey;
-  font-size: 20px;
-}
-
-.intro-text div p {
-  color: black;
-  font-style: italic;
-  font-size: 18px;
-}
-
-.footer {
-  margin-top: 30px;
-  border-top: 1px solid #ddd;
-}
-
-.square div {
-  position: relative;
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-  border-radius: 30%;
-  text-align: center;
-  margin: 30px 0px 30px 40px;
-}
-
-.square div i {
-	position: relative;
-	margin-top: 7px;
-  background-color: transparent;
-  color: white;
-}
-
-.container div div img {
-  max-width: 450px;
-  max-height: 300px;
-  border: 1px solid #ddd;
-}
-
-.row {
-  margin-top: 40px;
-}
-
-.projectInfo {
-  font-style: italic;
-  color: grey;
-}
-
-#Instagram {
-  margin-left: 370px;
-  border: 3px solid #ff5050;
-  background-color: black;
-}
-
-#Email {
-  border: 3px solid #4db8ff;
-  background-color: black;
-}
-
-#Github {
-  border: 3px solid #009900;
-  background-color: black;
-}
-
-#LinkedIn {
-  border: 3px solid #0000ff;
-  background-color: black;
-}
-
-#myself {
-  float: left;
-  height: auto;
-  width: auto;
-  max-width: 500px;
-  max-height: 500px;
-  border-radius: 3%;
-}
-
-#firstpic {
-  height: 100%;
-  width: 100%;
-}
-
-#pageTop {
-  text-align: center;
-}
-
-#resumeHeader {
-  margin-top: 20px;
-  border-bottom: 1px solid #ddd;
-  color: #343351;
-  text-transform: uppercase;
-}
-
-#resumeTop h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.fa-github-square{
-    color: #27a339;
-}
-.heart {
+.container #resume {
   display: none;
-  opacity: 0.25;
-  color: #ff002a;
-  font-size: 40px;
 }
+.container .card-content {
+  background-color: yellow;
+  border-radius: 3rem;
+  margin: 2rem auto 0;
+  max-width: 46rem;
+  padding: 2rem;
+  overflow: hidden;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  height: 43rem;
+}
+
+header {
+  margin: 2rem auto 0;
+  height: 5rem;
+  max-width: 50rem;
+}
+header button {
+  float: right;
+  color: #43fffd;
+  background-color: #25426f;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.3rem;
+  margin: 1rem 0 1rem 3rem;
+}
+header button:hover {
+  transform: scale(1.3, 1.3);
+}
+header img {
+  max-height: 5rem;
+  border-radius: 3rem;
+}
+
+@keyframes removeCard {
+  0% {
+    height: 100%;
+  }
+  50% {
+    height: 40rem;
+    padding: 2rem;
+  }
+  100% {
+    height: 0;
+    padding: 0;
+  }
+}
+@keyframes addCard {
+  0% {
+    display: block;
+    height: 0;
+    padding: 0;
+  }
+  50% {
+    height: 40rem;
+    padding: 2rem;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

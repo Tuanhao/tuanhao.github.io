@@ -2,61 +2,53 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css" >
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <title> **HAO** </title>
-    <link rel="shortcut icon" type="image/png" href="https://image.jimcdn.com/app/cms/image/transf/dimension=273x10000:format=png/path/sb0abad0b84d20c80/image/i0411c6b30e3d2ed8/version/1408093289/tangram-puzzle-114-letter-h-visit-http-www-tangram-channel-com-to-see-the-solution-to-this-tangram.png" />
+    <title> Hao Tuan Chau </title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <ul class="menu_left">
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="resume.html"> Resume </a></li>
-        </ul>
-        <a href="#" class="menu_image">
-          <img src="./JSlogo.png">
-        </a>
-        <ul class="menu_right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle">Projects <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="project.html#CUNews"> CU-News </a></li>
-              <li><a href="project.html#ChessGame"> ChessGame </a></li>
-              <li><a href="project.html#TTTGame"> Tic Tac Toe Game </a></li>
-              <li><a href="project.html#SMS"> Supermarket APP </a></li>
-            </ul>
-		      </li>
-          <li><a href="https://github.com/Tuanhao"> Github </a></li>
-        </ul>
-      </div>
+    <header>
+      <button >Projects</button>
+      <button onclick="showResume()">Resume</button>
+      <button >Intro</button>
+      <img 
+        src="headerPic.jpg"
+        alt="Small picture of Hao in San Francisco" />
+    </header>
+    <div class="container">
+      <section class="card-content" id="intro">
+        <img
+        id="HCM"
+        src="./HCM.jpg" 
+        alt="Picture of Ho Chi Minh city" />
+        <img
+        id="familyPic"
+        src="./familyPic.jpg" 
+        alt="Picture of Hao and family" />
+        <h1>Hi! This is "HOW"</h1>
+        <p>
+          My name is Hao Chau. I am from Saigon, Vietnam. It is
+          such a honor for me to study here in Canada (aka the "Great" White North).<br />
+          I am currently studying Computer Engineering at Carleton University, 
+          and persuing to become a professional font-end developer.<br /> 
+          I am a web application enthusiast.
+          I am passionate about CSS, and having a lot of fun with it by trying different
+          naming conventions, 3D-transformations, preprocessors, and helping friends out. <br />
+          I am a cat person.
+        </p>
+      </section>
+      <section class="card-content" id="resume">
+          <h1>Hi! This is "HOW"</h1>
+          <p>
+            Welcom to my page. My name is Hao Chau. I am from Saigon, Vietnam. It is
+            such a honor for me to study here in Canada (aka the "Great" White North).
+            I am currently studying Computer Engineering at Carleton University, 
+            and persuing to become a professional font-end developer.
+            Ideally, I would like to become a full stack developer in the future.
+            I am passionate about CSS, and having a lot of fun with it by trying different
+            naming conventions, 3D-transformations, preprocessors, and helping friends out.
+          </p>
+          </section>
     </div>
-    <div class="center">
-      <div class="container">
-        <img id ="firstpic" src ="./HCMcity.jpg">
-        <div class="intro">
-          <div class="intro-pic">
-          <img id ="myself" src="./image2.jpg">
-          </div>
-          <div class="intro-text">
-            <h1> I AM "HOW" </h1>
-            <p> My name is Tuan-Hao Chau, and I like people calling me Hao (pronounced as how). I'm currently enrolling in Computer System Engineering program at Carleton University. I'm originally from <a href="https://en.wikipedia.org/wiki/Vietnam">Viet Nam</a>. I have been studying in Canada for 4 years and it has been an amazing adventure of my life.</p>
-            <div>
-              <p> I am passionate about high technology and fashion. I am particularly fascinated by computer technology and has even decided to pursue it as my career. </p>
-              <p> Feel free to contact me through my email tuanhao256@gmail.com.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-      <div class="square">
-        <div id ="Instagram"><a href="https://www.instagram.com/tuanhao256/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></div>
-        <div id ="Email"><a href= "#" ><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></div>
-        <div id ="Github"><a href="https://github.com/Tuanhao"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
-        <div id ="LinkedIn"><a href="https://ca.linkedin.com/in/tuan-hao-chau-0a2142134"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></div>
-      </div>
+      
     </div>
     <script src="https://use.fontawesome.com/9476cd96e0.js"></script>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
